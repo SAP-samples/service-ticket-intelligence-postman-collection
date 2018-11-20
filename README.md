@@ -1,9 +1,10 @@
 # service-ticket-intelligence-postman-collection-sample
 A Postman collection and environment template that enables users to consume the Service Ticket Intelligence machine learning service.
----------------------
+
 Description:
+====================
 In the SAP Service Ticket Intelligence User Guide Import Postman Collection and Environment section, the user should be able to download the 2 sample code JSON files available in this repository (Env for STI sample collection.postman_environment.json and STI sample collection.postman_collection.json). The user should import the files to the open source application Postman (https://www.getpostman.com/) in order to consume the SAP Service Ticket Intelligence machine learning service. The JSON files are templates that contain requests that call the service APIs. Further configuration details are available in the User Guide to enable the user to adapt the templates according to their needs. For more information, see the SAP Service Ticket Intelligence User Guide at https://help.sap.com/stint. 
----------------------
+
 Requirements:
 ---------------------
 Open source application Postman (https://www.getpostman.com/).
