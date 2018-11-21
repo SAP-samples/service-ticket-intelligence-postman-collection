@@ -1,4 +1,4 @@
-
+.
 # service-ticket-intelligence-postman-collection-sample
 Postman collection and environment templates that enable users to consume the Service Ticket Intelligence machine learning service.
 
@@ -29,4 +29,5 @@ In every new release, the files might be updated with the new improvements and f
 License:
 ====================
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the SAP Sample Code License except as noted otherwise in the LICENSE file [include link to the LICENSE file in your project repository].
+This file is licensed under the SAP Sample Code License except as noted otherwise in the LICENSE file.
+You can find the LICENSE file at https://github.com/SAP/service-ticket-intelligence-postman-collection-sample/blob/master/SAP%20Sample%20Code%20License%20Agreement%20v1.0.docx
