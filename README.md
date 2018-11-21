@@ -4,7 +4,7 @@
 
 This repository contains the JSON sample code files described in the SAP Service Ticket Intelligence User Guide - Import Postman Collection and Environment section.  
 
-This sample uses the commercial SAP product [SAP Service Ticket Intelligence](https://help.sap.com/viewer/p/SAP_SERVICE_TICKET_INTELLIGENCE).  For details on using this sample, please go to: https://help.sap.com/stint -> Training and Education -> SAP Service Ticket Intelligence User Guide -> Set Up Postman Collection and Environment and Call the API from Postman sections.
+This sample uses the commercial SAP product SAP Service Ticket Intelligence. For details on using this sample, please go to: https://help.sap.com/stint -> Training and Education -> SAP Service Ticket Intelligence User Guide -> Set Up Postman Collection and Environment and Call the API from Postman sections.
 
 ## Requirements
 
