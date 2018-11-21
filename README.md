@@ -24,7 +24,7 @@ For configuration instructions go to: https://help.sap.com/stint -> Training and
 
 ## How to obtain support:
 
-**TODO**
+If you face any issue with the JSON files, please log a bug here in GitHub.
 
 ## License
 
