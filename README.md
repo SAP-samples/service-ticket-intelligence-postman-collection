@@ -1,33 +1,31 @@
-.
-# service-ticket-intelligence-postman-collection-sample
-Postman collection and environment templates that enable users to consume the Service Ticket Intelligence machine learning service.
+# Service Ticket Intelligence - Postman collection sample files
 
-Description:
-====================
-In the SAP Service Ticket Intelligence User Guide Import Postman Collection and Environment section, the user should be able to download the 2 sample code JSON files available in this repository (Env for STI sample collection.postman_environment.json and STI sample collection.postman_collection.json). The user should import the files to the open source application Postman (https://www.getpostman.com/) in order to consume the SAP Service Ticket Intelligence machine learning service. The JSON files are templates that contain requests that call the service APIs. Further configuration details are available in the User Guide to enable the user to adapt the templates according to their needs. For more information, see the SAP Service Ticket Intelligence User Guide at https://help.sap.com/stint. 
+## Description
 
-Requirements:
-====================
-Open source application Postman (https://www.getpostman.com/).
+This repository contains the JSON sample code files described in the SAP Service Ticket Intelligence User Guide - Import Postman Collection and Environment section.  
 
-Download and Installation:
-====================
-For download and installation instructions go to: https://help.sap.com/stint -> Training and Education -> SAP Service Ticket Intelligence User Guide -> Set Up Postman Collection and Environment.
+This sample uses the commercial SAP product [SAP Service Ticket Intelligence](https://help.sap.com/viewer/p/SAP_SERVICE_TICKET_INTELLIGENCE).  For details on using this sample, please go to the [STINT website - set Up Postman Collection and Environment and Call the API from Postman](https://help.sap.com/viewer/fb95f4cf368448be94f0eaed1583f491/1807/en-US/2d3018c4cffd4ced9a7c4f9ea5bc0ceb.html)
 
-Configuration:
-====================
+## Requirements
+
+[Postman](https://www.getpostman.com/).
+
+## Download and Installation:
+
+Download these files directly from GitHub [as a Zip file,](https://github.com/SAP/cloud-samples-itelo/archive/master.zip) or by using the git command line tool:
+
+    git clone https://github.com/SAP/cloud-samples-itelo.git
+  
+
+## Configuration
+
 For configuration instructions go to: https://help.sap.com/stint -> Training and Education -> SAP Service Ticket Intelligence User Guide -> Set Up Postman Collection and Environment and Call the API from Postman sections.
 
-How to obtain support:
-====================
-For support instructions go to: https://help.sap.com/stint -> Troubleshooting -> Support -> Get Help.
+## How to obtain support:
 
-To-Do (upcoming changes)
-====================
-In every new release, the files might be updated with the new improvements and features. Code lines might need to be added or removed, but the main sample code structure and scope remain the same. 
+**TODO**
 
-License:
-====================
+## License
+
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the SAP Sample Code License except as noted otherwise in the LICENSE file.
-You can find the LICENSE file at https://github.com/SAP/service-ticket-intelligence-postman-collection-sample/blob/master/SAP%20Sample%20Code%20License%20Agreement%20v1.0.docx
+This file is licensed under the [SAP Sample Code License](/LICENSE) except as noted otherwise in the LICENSE file.
