@@ -8,7 +8,8 @@ This sample uses the commercial SAP product [SAP Service Ticket Intelligence](ht
 
 ## Requirements
 
-[Postman](https://www.getpostman.com/).
+- [SAP Service Ticket Intelligence](https://www.sap.com/products/service-ticket-intelligence.html) (commercial product)
+- [Postman API Development Environment](https://www.getpostman.com/)
 
 ## Download and Installation:
 
