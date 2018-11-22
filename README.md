@@ -15,7 +15,7 @@ This sample uses the commercial SAP product SAP Service Ticket Intelligence. For
 
 Download these files directly from GitHub [as a Zip file,](https://github.com/SAP/service-ticket-intelligence-postman-collection-sample/archive/master.zip) or by using the git command line tool:
 
-    git clone https://github.com/SAP/cloud-samples-itelo.git
+    git clone https://github.com/SAP/service-ticket-intelligence-postman-collection-sample
   
 
 ## Configuration
