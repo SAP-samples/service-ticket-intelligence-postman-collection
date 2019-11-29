@@ -29,7 +29,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic  {{subscription_appkey_secret_base64}}"
+						"value": "Basic {{subscription_appkey_secret_base64}}"
 					}
 				],
 				"body": {
