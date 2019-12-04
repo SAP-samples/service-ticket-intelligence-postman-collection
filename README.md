@@ -13,7 +13,7 @@ This sample uses the commercial SAP product Service Ticket Intelligence. For det
 
 ## Download and Installation:
 
-Download these files directly from GitHub as a [ZIP file](https://github.com/SAP/service-ticket-intelligence-postman-collection-sample/archive/master.zip), or by using the git command line tool:
+Download these files directly from GitHub as a [ZIP file](https://github.com/SAP-samples/service-ticket-intelligence-postman-collection-sample/archive/master.zip), or by using the git command line tool:
 
     git clone https://github.com/SAP/service-ticket-intelligence-postman-collection-sample
   
