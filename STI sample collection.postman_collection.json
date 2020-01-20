@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b8fe9144-9932-4ccb-a9b8-9d661d3d1b28",
+		"_postman_id": "c44640a3-42f3-4897-90ab-296db4adb7a9",
 		"name": "STI sample collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,25 +11,37 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "07e8a5df-40d9-4f07-99f3-86d672783ec7",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);",
 							"",
 							"postman.setEnvironmentVariable(\"access_token\", jsonData.access_token);"
-						]
+						],
+						"type": "text/javascript"
 					}
 				}
 			],
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "uaa-clientid",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "uaa-clientsecret",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
 						"value": "application/x-www-form-urlencoded"
-					},
-					{
-						"key": "Authorization",
-						"value": "Basic {{subscription_appkey_secret_base64}}"
 					}
 				],
 				"body": {
@@ -1214,5 +1226,6 @@
 			},
 			"response": []
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
