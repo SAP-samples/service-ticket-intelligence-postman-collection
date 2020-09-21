@@ -8,14 +8,14 @@ This sample uses the commercial SAP product Service Ticket Intelligence. For det
 
 ## Requirements
 
-- [Service Ticket Intelligence](https://www.sap.com/products/service-ticket-intelligence.html) (commercial product)
+- [Service Ticket Intelligence](https://help.sap.com/stint) ([SAP AI Business Services](https://help.sap.com/aibus) and [SAP Cloud Platform](https://help.sap.com/viewer/product/CP/Cloud/en-US) commercial service) or a [Free Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html) 
 - [Postman API Development Environment](https://www.getpostman.com/)
 
 ## Download and Installation:
 
 Download these files directly from GitHub as a [ZIP file](https://github.com/SAP-samples/service-ticket-intelligence-postman-collection-sample/archive/master.zip), or by using the git command line tool:
 
-    git clone https://github.com/SAP/service-ticket-intelligence-postman-collection-sample
+    git clone https://github.com/SAP-samples/service-ticket-intelligence-postman-collection-sample
   
 ## Configuration
 
