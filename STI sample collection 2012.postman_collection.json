@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "87331b00-1c6e-4ca0-ada6-699dae7991d7",
-		"name": "STI sample collection 2008",
+		"_postman_id": "ae6f2626-54aa-40f0-8731-47dfdf218014",
+		"name": "STI sample collection 2012",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,7 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "f775a5bb-9ba3-4cea-8a41-dc0cbe2e9cf0",
+						"id": "73a11720-8176-47ef-ad1e-98baa1dfd962",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);",
 							"",
@@ -26,13 +26,13 @@
 					"type": "basic",
 					"basic": [
 						{
-							"key": "username",
-							"value": "uaa-clientid",
+							"key": "password",
+							"value": "{{client_secret}}",
 							"type": "string"
 						},
 						{
-							"key": "password",
-							"value": "uaa-clientsecret",
+							"key": "username",
+							"value": "{{client_id}}",
 							"type": "string"
 						}
 					]
@@ -225,7 +225,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "a5ae0988-c2d6-4f24-b662-0103ea9bcb52"
+						"id": "0a7a7e6b-8c47-43bb-ac2b-2160ffbbec2f"
 					}
 				}
 			],
@@ -269,7 +269,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c72ae87b-33af-4cf2-b570-ca71131e146a",
+						"id": "87239017-4764-4ce5-91f7-b927e21fadba",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);",
 							"",
@@ -319,7 +319,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "1932c5d9-4b18-4561-9cbd-52330db57064",
+						"id": "07f983cf-b6c4-499a-877d-3700429c47e9",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);",
 							"",
@@ -375,7 +375,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "2f79c6a0-1c09-40d1-8376-320288813f08"
+						"id": "bc96f63c-f403-4989-85f5-3babd2c761db"
 					}
 				}
 			],
@@ -425,7 +425,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "de7f9f5e-f62d-455e-a1a4-aa1ad2e120ee"
+						"id": "951b2f51-54a7-42ad-8a15-8fb04f5d7147"
 					}
 				}
 			],
@@ -475,7 +475,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "ff1d52f7-1eb5-4bb2-ad37-469bbc43284f"
+						"id": "bb2f5654-d06c-44b8-b2a1-9551c2468ee4"
 					}
 				}
 			],
@@ -525,7 +525,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "788cfd08-5413-42fb-8e09-09d516728f65"
+						"id": "657528b9-f131-4d6a-b630-af582346c6a4"
 					}
 				}
 			],
@@ -571,7 +571,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "a7f2fd0b-a6af-4135-9c2e-21fdddff06c3"
+						"id": "be311173-b745-4607-8e54-f7c4e88b7be4"
 					}
 				}
 			],
@@ -621,7 +621,7 @@
 							"",
 							"postman.setEnvironmentVariable(\"model_id\", jsonData.model_id);"
 						],
-						"id": "893df174-29a6-41e6-890a-b8c310cbf2f7"
+						"id": "fb38038e-0f55-4155-a763-1a104727ce2b"
 					}
 				}
 			],
